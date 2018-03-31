@@ -14,13 +14,14 @@ Um modelo para customizar o Snackbar padrão do Android alterando as cores confo
 
 * Nesse projeto simples,  exemplifico o uso. Basta baixá-lo e executá-lo no Android Studio.
 
-* A classe modelo chamada SnackbarCustom.java funciona com chamadas a métodos estáticos ou com a criação de instâncias, encapsulamento e exibindo o snackbar. O tipo de uso fica a critério do desenvolvedor. Funciona das duas formas.
+* A classe modelo chamada SnackbarCustom.java funciona com chamadas a métodos estáticos ou com a criação de instâncias, 
+encapsulamento e exibição do snackbar. O tipo de uso fica a critério do desenvolvedor. Funciona das duas formas.
 
 
 ### Instruções
 ----------
 * Não há dependências extras, a não ser a  própria classe Snackbar do Android. 
-  As outras dependências presente no build.gradle são referentes ao material design para o cardview do exemplo
+  As outras dependências presentes no build.gradle são referentes ao material design para o cardview do exemplo
   e não são necessárias ao modelo Snackbar.
 
 
