@@ -1,0 +1,4 @@
+#Sat Mar 31 16:41:04 BRT 2018
+base.0=/Users/danielsiqueira/AndroidStudioProjects/SnackbarCustomize/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
