@@ -19,7 +19,9 @@ Um modelo para customizar o Snackbar padrão do Android alterando as cores confo
 
 ### Instruções
 ----------
-* As dependências da classe fazem menção, somente, ao a própria classe Snackbar do Android. As outras dependência presente no build.gradle são referentes ao material design para o cardview do exemplo e não são necessárias ao modelo Snackbar.
+* Não há dependências extras, a não ser a  própria classe Snackbar do Android. 
+  As outras dependências presente no build.gradle são referentes ao material design para o cardview do exemplo
+  e não são necessárias ao modelo Snackbar.
 
 
 *Para chamadas estáticas faça:*
@@ -31,7 +33,7 @@ import com.br.snackbarcustomize.model.SnackbarCustom;
 
 /*
  Faça a chama chamada estática passando, no mínimo 4 parâmetros:
- 1: A view, 2: O texto, 3:O tempo(int).0=LONG / -1=SHORT, 4: Cor Hexadecimal de fundo
+ 1: A view, 2: O texto, 3: O tempo(int).0=LONG / -1=SHORT, 4: Cor Hexadecimal de fundo
 
  @param View view
  @param Charsequence textReturn
@@ -57,7 +59,7 @@ SnackbarCustom.make(view,"Snackbar Customizado!",0, "#FF0000").show();
   SnackbarCustom.make(view,textReturn, numberTime,hexadecimalBackground, hexadecimalColor).show();
 */
 
-//Exemplo: Chamada estática alterando a cor de fundo  e do texto do Snackbar
+//Exemplo: Chamada estática alterando a cor de fundo e do texto do Snackbar
 SnackbarCustom.make(view,"Snackbar Customizado!",0, "#EDEDED", "#1b7d83").show();
 
 ```
@@ -65,17 +67,13 @@ SnackbarCustom.make(view,"Snackbar Customizado!",0, "#EDEDED", "#1b7d83").show()
   <img width="200" src="https://raw.githubusercontent.com/danielsidev/snackcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131106.png">
 
 </p>
+
 *Para criar uma instância, encapsular e exibir o snackbar, faça:*
 ----------
 
 ```
 /* Importe a classe do package model */
 import com.br.snackbarcustomize.model.SnackbarCustom;
-
-
-
-//Exemplo: Chamada estática alterando a cor de fundo do Snackbar
-SnackbarCustom.make(view,"Snackbar Customizado!",0, "#FF0000").show();
 
 /*
   Para alterar a cor de fundo e a cor da fonte do texto,
@@ -87,7 +85,6 @@ SnackbarCustom.make(view,"Snackbar Customizado!",0, "#FF0000").show();
   @param String hexadecimalBackground
   @param String hexadecimalColor
 
-  SnackbarCustom.make(view,textReturn, numberTime,hexadecimalBackground, hexadecimalColor).show();
 */
 
 //Exemplo: Chamada com instância, alterando a cor de fundo do Snackbar
