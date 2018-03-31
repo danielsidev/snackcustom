@@ -12,9 +12,9 @@ Um modelo para customizar o Snackbar padrão do Android alterando as cores confo
 
 
 
-* Criei esse projeto simples para exemplificar o uso. Basta baixá-lo e executá-lo no Android Studio.
+* Nsse projeto simples,  exemplifico o uso. Basta baixá-lo e executá-lo no Android Studio.
 
-* A classe modelo chamada SnackbarCustom.java funciona com chamas de métodos estáticos ou criação de instância, encapsulamento e exibir o snackbar. O tipo de uso fica a critério do desenvolvedor. Funciona das duas formas.
+* A classe modelo chamada SnackbarCustom.java funciona com chamadas a métodos estáticos ou com a criação de instâncias, encapsulamento e exibindo o snackbar. O tipo de uso fica a critério do desenvolvedor. Funciona das duas formas.
 
 
 ### Instruções
@@ -62,7 +62,8 @@ SnackbarCustom.make(view,"Snackbar Customizado!",0, "#EDEDED", "#1b7d83").show()
 
 ```
 <p align="center">
-  <img width="200"  src="https://raw.githubusercontent.com/danielsidev/snackbarcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131106.png">
+  <img width="200" src="https://raw.githubusercontent.com/danielsidev/snackcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131106.png">
+
 </p>
 *Para criar uma instância, encapsular e exibir o snackbar, faça:*
 ----------
@@ -120,5 +121,6 @@ SnackbarCustom snack = new SnackbarCustom();
 
 ```
 <p align="center">
-  <img width="200"  src="https://raw.githubusercontent.com/danielsidev/snackbarcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131102.png">
+  <img width="200"  src="https://raw.githubusercontent.com/danielsidev/snackcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131102.png">
+
 </p>
