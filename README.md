@@ -2,7 +2,9 @@
 
 <h1 align="center">Snackbar Custom</h1>
 <p align="center">
-  <img width="200"  src="https://raw.githubusercontent.com/danielsidev/snackbarcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131055.png">
+  <img width="200" 
+src="https://raw.githubusercontent.com/danielsidev/snackcustom/master/app/src/main/res/drawable/screenshot/Screenshot_20180331-131055.png">
+ 
 </p>
 Um modelo para customizar o Snackbar padrão do Android alterando as cores conforme sua necessidade.
 
